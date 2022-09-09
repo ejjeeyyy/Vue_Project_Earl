@@ -1,10 +1,10 @@
 <template>
   <nav>
-      <v-toolbar app class="bg-teal text-white">
+      <v-toolbar app class="bg-indigo-darken-1 text-white">
        <v-app-bar-nav-icon @click='toggleDrawer'></v-app-bar-nav-icon>
       <v-toolbar-title >
         <span class="font-weight-light">Midterm </span>
-        <span>Laboratory 1</span>
+        <span>Project</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
@@ -41,7 +41,7 @@
       
       </v-toolbar>
 
-     <v-navigation-drawer app v-model="drawer" class="bg-teal text-white">
+     <v-navigation-drawer app v-model="drawer" class="bg-indigo-darken-4 text-white">
        <v-list-item
           v-for="item in items"
           :key="item.title"
@@ -61,11 +61,15 @@
   const drawer = ref(false)
 
   const  items =  ref([
-           { title: 'Math', icon: 'mdi-calculator', path: '/basicMath' },
-           { title: 'String App', icon: 'mdi-library', path: '/stringApp'},
-           { title: 'About', icon: 'mdi-school', path: '/about'},
-           { title: 'Vuetify', icon: 'mdi-view-dashboard', path: '/dashboard' },
-           { title: 'Quiz', icon: 'mdi-head-question-outline', path: '/axios' },
+           { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/dashboard' },
+           { title: 'Simple Calculator', icon: 'mdi-calculator', path: '/basicMath' },
+           { title: 'String App', icon: 'mdi-code-string', path: '/stringApp'},
+           { title: 'Quiz App', icon: 'mdi-head-question-outline', path: '/axios' },
+           { title: 'Vuetify Research', icon: 'mdi-vuetify', path: '/vuetifyresearch' },
+           { title: 'About Me', icon: 'mdi-account-circle', path: '/about'},
+           { title: 'About Application', icon: 'mdi-information-outline', path: '/aboutapp'},
+           
+           
         ])
 
  function toggleDrawer(){

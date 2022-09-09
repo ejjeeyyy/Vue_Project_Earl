@@ -8,6 +8,7 @@
     >
       <v-card
         elevation="24"
+        class="rounded-xl"
       >
         <v-card-title class="text-center bg-teal text-white">
           <span class="text-h4 white--text ">String Manipulator</span>

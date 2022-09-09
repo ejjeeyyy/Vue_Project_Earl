@@ -10,9 +10,8 @@
     <br> -->
     <v-card
   elevation="24"
-  class="mx-auto my-12"
+  class="mx-auto my-12 rounded-xl"
   width="80%"
-
 
 >
 

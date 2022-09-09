@@ -1,18 +1,5 @@
 <template>
 
-<body>
-
-    <!-- <v-btn @click="getQuestions" id="show" class="my-5 text-black" outlined> 
-                Get Quiz</v-btn> -->
-                
-
-</body>
-
-
-
-
-
-
     <div>  
         <v-card
         elevation="24"
@@ -23,12 +10,7 @@
         <h1 class="mt-5 text-center font-weight-light">Vue JS Get Data from API by Axios</h1>
             <div class="text-center"><v-btn @click="getQuestions" id="show" class="my-5 text-black" outlined> 
                 Get Quiz</v-btn> </div>
-     
-
         </v-card>    
-
-        
-
 
         <v-card
         elevation="24"
