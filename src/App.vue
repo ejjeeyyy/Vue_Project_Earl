@@ -1,5 +1,5 @@
 <template>
-   <v-app class="bg-indigo-lighten-5">
+   <v-app class="bg-blue-grey-lighten-5">
     <v-main>
        <Navbar/>
        <router-view></router-view>

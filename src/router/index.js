@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import BasicMathView from '../views/BasicMathView.vue'
 import StringAppView from '../views/StringAppView.vue'
-import HomeView from '../views/StringAppView.vue'
+import HomeView from '../views/Dashboard.vue'
 import DashboardView from '../views/Dashboard.vue'
 import AboutView from '../views/About.vue'
-import AxiosView from '../views/Axios.vue'
+import AxiosView from '../views/QuizApp.vue'
 import AboutAppView from '../views/AboutApplication.vue'
 import VuetifyResearchView from '../views/VuetifyResearch.vue'
 
@@ -18,6 +18,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/dashboard',
+      name: 'Dashboard',
+      component: DashboardView
+    },
+    {
       path: '/basicMath',
       name: 'BasicMath',
       component: BasicMathView
@@ -27,11 +32,7 @@ const router = createRouter({
       name: 'StringAppView',
       component: StringAppView
     },
-    {
-      path: '/dashboard',
-      name: 'Dashboard',
-      component: DashboardView
-    },
+
     {
       path: '/axios',
       name: 'Axios',

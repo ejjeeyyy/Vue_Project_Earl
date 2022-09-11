@@ -1,40 +1,46 @@
 <template>
 
-  <v-row justify="center">
-    <v-col
-      cols="12"
-      sm="5"
-      class="mx-auto my-12"
-    >
-      <v-card
-        elevation="24"
-        class="rounded-xl"
-      >
-        <v-card-title class="text-center bg-teal text-white">
-          <span class="text-h4 white--text ">String Manipulator</span>
+<v-container fluid id="">    
 
-        </v-card-title>
-    <div class="text" >
-        <h3> <v-text-field label="Enter any String" type='text'  v-model.text="vowel" @change='answer'></v-text-field></h3>
-    
-    <v-card-text
-    
+
+<div class="text-center mt-8 ">
+<h1 class="font-weight-light">String Manipulator</h1>
+<v-divider class=" mt-6"></v-divider>
+<br>
+
+</div>
+
+<v-container>
+<v-card elevation="5" class="mx-auto my-12 rounded-xl"
+  width="70%">
+  <v-row>
+    <v-col
+
+
     >
-        <div id="app"><h3>
+
+ 
+    <div class="text" >
+        <v-text-field class="mx-12 my-5" variant="solo" label="Enter any String" type='text'  v-model.text="vowel" @change='answer'>
+        </v-text-field>
+        <v-divider class="mx-10"></v-divider>
+
+        <div id="app" class="mx-12 my-5 text-subtitle-1">
         Vowels: {{ vow }}<br>
         Number of Characters: {{ count }}<br>
         Consonants: {{ conso }}<br>
         Vowel to : {{ con }}<br>
-        </h3></div>
-    </v-card-text>
+        </div>
+  
     </div>
     
 
 
-      </v-card>
     </v-col>
   </v-row>
-    
+</v-card>
+</v-container>
+</v-container>
 </template>
 
 <script>

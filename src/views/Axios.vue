@@ -1,11 +1,21 @@
 <template>
 
+<v-container fluid id="">    </v-container>
+
+
+<div class="text-center mt-5 ">
+<h1 class="font-weight-light">Quiz Application</h1>
+<v-divider class="mx-2 mt-5"></v-divider>
+<br>
+
+</div>
+
     <div>  
         <v-card
-        elevation="24"
+        elevation="5"
         class="mx-auto my-12 rounded-xl"
         width="80%"
-        color="success"
+        color=""
         >
         <h1 class="mt-5 text-center font-weight-light">Vue JS Get Data from API by Axios</h1>
             <div class="text-center"><v-btn @click="getQuestions" id="show" class="my-5 text-black" outlined> 
@@ -13,7 +23,7 @@
         </v-card>    
 
         <v-card
-        elevation="24"
+        elevation="5"
         class="mx-auto my-12 rounded-xl"
         width="80%"
         >
