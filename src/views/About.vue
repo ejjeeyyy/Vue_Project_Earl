@@ -219,7 +219,7 @@ ul{
     background-size: cover;
     background-repeat: no-repeat;
     height:25%;   
-    filter: brightness(80%);
+    /* filter: brightness(80%); */
     
 
   }

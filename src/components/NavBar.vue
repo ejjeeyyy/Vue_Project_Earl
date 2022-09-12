@@ -130,12 +130,13 @@
 
 <style >
   #navv{
-    background-color: #4C0033;
-        /* background: url();
-    background-size: cover;
+    /* background-color: #790252; */
+        background-color:  #792853;
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.23), rgba(0,0,0,0.23)), ;
+      /* background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.287), rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.440),
-    rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) , url('src/assets/covercut.png'); */
-    
+    rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) , url('src/assets/covercut.png');
+     */
     
   }
   #toolbar{
