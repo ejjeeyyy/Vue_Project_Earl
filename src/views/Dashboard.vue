@@ -46,13 +46,13 @@
 
   #dbcontainer{
     margin-top: 170px;
-    margin-left: 100px;
+    margin-left: 200px;
 
   }
   .egg {
   display: block;
   margin-left: 300px;
-  margin-top: 100px;
+  margin-top: 140px;
   width: 456px;
   height: 400px;
   background-color: #792853;
