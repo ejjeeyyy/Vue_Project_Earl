@@ -1,5 +1,5 @@
 <template>
-   <v-app class="bg-blue-grey-lighten-5">
+   <v-app class="bg-blue-grey-lighten-5" id="appvue">
     <v-main>
        <Navbar/>
        <router-view></router-view>
@@ -10,3 +10,13 @@
 <script setup>
   import Navbar from '@/components/NavBar.vue';
 </script>
+
+<style>
+#appvue
+{
+   background: url(./assets/cover.png);
+
+}
+
+
+</style>
