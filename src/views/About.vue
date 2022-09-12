@@ -214,7 +214,7 @@ ul{
 }
 
 #container{
-    background: url('cover.jpg');
+    background: url('https://cdn.discordapp.com/attachments/1018737970997633045/1018738084474519562/cover.jpg');
     /* background-position: center; */
 
     

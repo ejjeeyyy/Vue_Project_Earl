@@ -79,7 +79,7 @@
     </v-app-bar>
 
     
-     <v-navigation-drawer         expand-on-hover
+     <v-navigation-drawer  fluid    expand-on-hover
         rail id="navv" app v-model="drawer" class=" text-white">
       <!-- <v-toolbar-title >
         <div class="my-4 text-white">

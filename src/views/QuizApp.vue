@@ -2,6 +2,7 @@
 
   <v-container fluid>
   <div class="text-center mt-5 ">
+    
 <h1 class="font-weight-light">Quiz Application</h1>
 <v-divider class="mx-2 mt-5"></v-divider>
 <br>
@@ -15,6 +16,7 @@
   width="65%"
 
 >
+<h1 align="center" class="mt-6 bg-pink-darken-4 pa-3 font-weight-light">Category <br> Science: Gadgets</h1>
     <quiz @quiz-completed="handleQuizCompleted" :key="quizKey" />
     <custom-modal
       v-show="showModal"
