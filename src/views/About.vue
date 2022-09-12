@@ -214,7 +214,7 @@ ul{
 }
 
 #container{
-    background: url('cover.png');
+    background: url('cover.jpg');
     /* background-position: center; */
 
     
