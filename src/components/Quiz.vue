@@ -112,7 +112,7 @@
         this.loading = true;
         //fetching questions from api
         let response = await fetch(
-          "https://opentdb.com/api.php?amount=5&category=21&type=multiple"
+          "https://opentdb.com/api.php?amount=3 &category=30&type=multiple"
         );
         let index = 0; //To identify single answer
         let data = await response.json();
