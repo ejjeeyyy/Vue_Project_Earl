@@ -15,9 +15,8 @@
     <v-row no-gutters>
       <v-col>
         <v-card class="pa-2 ma-2 rounded-xl" elevation="5">
-            <p class="mt-3 mx-6 text-justify">The simple calculator page displays a two input box where user can enter 2 numbers and
-                 and calculate its sum, difference, product, quotient, and average by clicking the calculate button after inputting 
-                 two numbers. 
+            <p class="mt-3 mx-6 text-justify">The Dashboard show a welcoming message, this is where the website will land first 
+              after running the program. <br><br>
             </p>
             <br>
             <v-divider class="mx-2"></v-divider>
@@ -44,9 +43,9 @@
 
       <v-col>
         <v-card class="pa-2 ma-2 rounded-xl" elevation="5">
-            <p class="mt-3 mx-6 text-justify"> The simple calculator page displays a two input box where user can enter 2 numbers and
-                 and calculate its sum, difference, product, quotient, and average by clicking the calculate button after inputting 
-                 two numbers. 
+            <p class="mt-3 mx-6 text-justify"> The String Manipulation page is where you can input a String 
+              and it will show the vowel count, number of characters, consonants, and converted vowel 
+              to asterisk.
                 </p>
             <br>
             <v-divider class="mx-2"></v-divider>
@@ -57,9 +56,9 @@
 
       <v-col>
         <v-card  class="pa-2 ma-2 rounded-xl" elevation="5">  
-            <p class="mt-3 mx-6 text-justify ">The simple calculator page displays a two input box where user can enter 2 numbers and
-                 and calculate its sum, difference, product, quotient, and average by clicking the calculate button after inputting 
-                 two numbers. 
+            <p class="mt-3 mx-6 text-justify ">The Quiz app page is where you can take a quiz that is 
+              created using axios. It will make an HTTP requests from the browser and can get its API.
+              <br><br>
             </p>
                 <br>
             <v-divider class="mx-2"></v-divider>
@@ -74,9 +73,8 @@
     <v-row no-gutters>
       <v-col>
         <v-card class="pa-2 ma-2 rounded-xl" elevation="5">
-            <p class="mt-3 mx-6 text-justify">The simple calculator page displays a two input box where user can enter 2 numbers and
-                 and calculate its sum, difference, product, quotient, and average by clicking the calculate button after inputting 
-                 two numbers.   
+            <p class="mt-3 mx-6 text-justify">The vuetify research page is where you can read some 
+              info about vuetify. It consist of introduction and why to use Vuetify.<br><br>
             </p>
                 <br>
             <v-divider class="mx-2"></v-divider>
@@ -86,9 +84,8 @@
       </v-col>
       <v-col>
         <v-card class="pa-2 ma-2 rounded-xl" elevation="5">
-            <p class="mt-3 mx-6 text-justify">The simple calculator page displays a two input box where user can enter 2 numbers and
-                 and calculate its sum, difference, product, quotient, and average by clicking the calculate button after inputting 
-                 two numbers.   
+            <p class="mt-3 mx-6 text-justify">The About Me page is where you can see information about me 
+              like my school, program, profile picture, and programming skill.<br><br>
             </p>
             <br>
             <v-divider class="mx-2"></v-divider>
@@ -101,9 +98,8 @@
 
       <v-col>
         <v-card class="pa-2 ma-2 rounded-xl" elevation="5">
-            <p class="mt-3 mx-6 ">The simple calculator page displays a two input box where user can enter 2 numbers and
-                 and calculate its sum, difference, product, quotient, and average by clicking the calculate button after inputting 
-                 two numbers.  
+            <p class="mt-3 mx-6 ">This application is created for the completion of the midterm laboratories and midterm 
+              project. This site is created using Vue Js framework and Vuetify. <br><br> 
             </p>
             <br>
             <v-divider class="mx-2"></v-divider>

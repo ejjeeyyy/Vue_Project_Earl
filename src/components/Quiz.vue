@@ -112,7 +112,7 @@
         this.loading = true;
         //fetching questions from api
         let response = await fetch(
-          "https://opentdb.com/api.php?amount=3 &category=30&type=multiple"
+          "https://opentdb.com/api.php?amount=3&category=30&type=multiple"
         );
         let index = 0; //To identify single answer
         let data = await response.json();
@@ -214,7 +214,7 @@
     padding: 1rem;
     margin: 0.5rem;
     width: 40%;
-    background-color: rgba(100, 100, 100, 0.3);
+    background-color: pink;
     border: none;
     border-radius: 0.4rem;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
@@ -267,11 +267,7 @@
   
   button.wrongAnswer {
     color: black;
-    background: linear-gradient(
-      210deg,
-      rgba(245, 0, 87, 0.25),
-      rgba(245, 0, 87, 0.5)
-    );
+background-color: red;
   }
   
   button.showRightAnswer {
@@ -281,11 +277,7 @@
     animation-iteration-count: 2;
     animation-timing-function: ease-in-out;
     color: black;
-    background: linear-gradient(
-      210deg,
-      rgba(0, 178, 72, 0.25),
-      rgba(0, 178, 72, 0.5)
-    );
+    background-color: green;
   }
   </style>
   

@@ -13,7 +13,7 @@
   <v-card 
   elevation="5"
   class="mx-auto my-12 rounded-xl"
-  width="65%"
+  width="45%"
 
 >
 <h1 align="center" class="mt-6 bg-pink-darken-4 pa-3 font-weight-light">Category <br> Science: Gadgets</h1>
