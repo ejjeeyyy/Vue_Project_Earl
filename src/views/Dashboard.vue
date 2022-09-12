@@ -1,6 +1,6 @@
 <template>
 <v-app id="dashboard">
-  
+  fsdlkfjglsdkgjlkjgl;kdfj
 </v-app>
 
 </template>
