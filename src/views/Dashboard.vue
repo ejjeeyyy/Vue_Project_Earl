@@ -1,16 +1,17 @@
 <template>
-
-<v-container fluid id="dashboard"></v-container>
+<v-app id="dashboard">
+  
+</v-app>
 
 </template>
 
 <style>
 
 #dashboard{
-    background: url('src/assets/plan.png');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:100%;  
+    background-image: url('src/assets/cover.png');
+    /* background-position: center;
+    background-size: cover; */
+    /* background-repeat: no-repeat;
+    height:100%;   */
   }
 </style>
