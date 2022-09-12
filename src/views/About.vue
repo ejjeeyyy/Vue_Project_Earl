@@ -214,16 +214,16 @@ ul{
 }
 
 #container{
-    background: url('src/assets/cover.png');
+    background: url('cover.png');
     /* background-position: center; */
 
     
-    /* background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    height:25%;    */
+    height:25%;   
 
 
-    /* filter: brightness(80%); */
+    filter: brightness(80%);
     
 
   }
