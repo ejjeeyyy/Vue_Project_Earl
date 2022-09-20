@@ -12,7 +12,7 @@
     <v-container fluid class="bg-blue-grey-lighten-5 mt-14">
   <v-card 
   elevation="5"
-  class="mx-auto my-12 rounded-xl"
+  class="mx-auto rounded-xl"
   width="45%"
 
 >
@@ -33,8 +33,10 @@
 </template>
 
 <script>
+
 import CustomModal from "../components/CustomModal.vue";
 import Quiz from "../components/Quiz.vue";
+import firebase from "firebase/compat";
 
 export default {
   components: { Quiz, CustomModal },
@@ -48,17 +50,25 @@ export default {
         answeredQuestions: 0,
         correctlyAnsweredQuestions: 0,
       },
+
     };
   },
   methods: {
+    
     handleQuizCompleted(score) {
+      var db = firebase.database().ref("/user")
       this.score = score;
       this.showModal = true;
+      db.push({
+        User_Score: score
+      });
     },
     updateQuiz() {
       this.showModal = false;
       this.quizKey++;
     },
+
+
   },
 };
 </script>

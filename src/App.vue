@@ -11,14 +11,3 @@
   import Navbar from '@/components/NavBar.vue';
 </script>
 
-<style>
-#appvue
-{
-   /* background: url(./assets/cover.png);
-   background-size: cover;
-   height:25%;
-    filter: brightness(50%); */
-}
-
-
-</style>

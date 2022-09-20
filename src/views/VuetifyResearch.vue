@@ -1,10 +1,7 @@
 
 
 <template>
-    <WelcomeItem>
-      <template #icon>
-        <DocumentationIcon />
-      </template>
+
   
 
       
@@ -59,8 +56,7 @@ Of course, that also means that you have to take on the MD with Vuetify. If you 
           <br>
     </div>
   </v-card>
-    </WelcomeItem>
-  
+
   </template>
   
   <style>

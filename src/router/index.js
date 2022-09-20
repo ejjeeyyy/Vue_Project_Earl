@@ -7,6 +7,11 @@ import AboutView from '../views/About.vue'
 import AxiosView from '../views/QuizApp.vue'
 import AboutAppView from '../views/AboutApplication.vue'
 import VuetifyResearchView from '../views/VuetifyResearch.vue'
+import RegisterView from '../views/Register.vue'
+import LoginView from '../views/Login.vue'
+import FeedView from '../views/Feed.vue'
+import QuizRecordView from '../views/QuizRecord.vue'
+
 
 
 const router = createRouter({
@@ -54,6 +59,26 @@ const router = createRouter({
       path: '/about',
       name: 'About',
       component: AboutView
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: RegisterView
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: LoginView
+    },
+    {
+      path: '/feed',
+      name: 'feed',
+      component: FeedView
+    },
+    {
+      path: '/quizrecord',
+      name: 'quizrecord',
+      component: QuizRecordView
     }
 
   ]

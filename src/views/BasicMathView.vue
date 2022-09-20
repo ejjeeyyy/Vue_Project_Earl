@@ -11,7 +11,7 @@
 
 </div>
 
-<v-container>
+
 <v-card elevation="5" class="mx-auto my-12 rounded-xl"
   width="75%">
 <v-container fluid >
@@ -40,7 +40,7 @@
 
 </v-container>
 </v-card>
-</v-container>
+
  </template>
 
 <script setup>

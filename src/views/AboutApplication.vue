@@ -16,7 +16,8 @@
       <v-col>
         <v-card class="pa-2 ma-2 rounded-xl" elevation="5">
             <p class="mt-3 mx-6 text-justify">The Dashboard show a welcoming message, this is where the website will land first 
-              after running the program. <br><br>
+              after running the program. If you are not yet logged in, it will display a text saying you are not logged in. 
+              Then, once you logged in, it will eventually display a welcoming message.<br>
             </p>
             <br>
             <v-divider class="mx-2"></v-divider>
@@ -47,7 +48,7 @@
               and it will show the vowel count, number of characters, consonants, and converted vowel 
               to asterisk.
                 </p>
-            <br>
+            <br><br>
             <v-divider class="mx-2"></v-divider>
             <v-btn 
             variant="text" prepend-icon="mdi-code-string">String Manipulation</v-btn>

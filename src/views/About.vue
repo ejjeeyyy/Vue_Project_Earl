@@ -11,7 +11,7 @@
     <v-container fluid id="container">    </v-container>
 
     <v-container fluid class="bg-blue-grey-lighten-5">
-      <v-container class="bg-blue-grey-lighten-5">
+
     <div>
     <v-avatar
       class="pic"
@@ -99,7 +99,7 @@
 </v-card>
 </v-container>
 </v-container>
-</v-container>
+
 
 
 
@@ -110,13 +110,13 @@
 .pic {
   position: relative;
   margin-top: -130px;
-      left: 170px;
+      left: 190px;
 }
 .pit{
-  margin-left: 490px; 
+  margin-left: 520px; 
 }
 .pl{
-  margin-left: 490px;
+  margin-left: 520px;
   color: black;
   margin-top: -200px;
 }

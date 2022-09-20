@@ -1,0 +1,1 @@
+<template><h1 class="mx-16">Feed</h1></template>
