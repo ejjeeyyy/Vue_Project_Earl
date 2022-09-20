@@ -9,7 +9,7 @@
 <v-divider class="mx-2 mt-5"></v-divider>
 <br>
 
-</div>
+</div>  
 
 
 <v-card elevation="5" class="mx-auto my-12 rounded-xl"
