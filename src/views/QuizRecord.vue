@@ -1,17 +1,28 @@
 
 <template>
+
+<div class="text-center mt-14 ">
+<h1 class="font-weight-light">Quiz Record</h1>
+<v-divider class="mx-2 mt-5"></v-divider>
+<br>
+
+</div>
+
     <v-layout class="mt-5" row>
-        <v-card class="mx-auto w-25">
-            <v-card-title>Quiz History</v-card-title>
+        <v-card class="mx-auto w-25 rounded-xl" elevation="5">
+            <v-card-title class="font-weight-light mt-3 text-center">Quiz History</v-card-title>
+            <v-divider class="mx-2 my-5"></v-divider>
+            <div class="text-center text-subtitle-2">
             <v-list :class="{ active: index == currentIndex }" v-for="(history, index) in List" :key="index">
                 <v-list-item @click="setActiveHistory(history, index)">{{ index + " : " +history.timeTaken
                 }}
                 </v-list-item>
             </v-list>
+            </div>
 
         </v-card>
-        <v-card class="mx-auto w-50">
-        <v-card-title>History</v-card-title>
+        <v-card class="mx-auto w-50 rounded-xl" elevation="5">
+        <v-card-title class="font-weight-light text-center mt-3">Quiz Details</v-card-title>
             <div v-if="currentHistory">
                 <QuizDetails :history="currentHistory" @refreshList="refreshList" />
             </div>

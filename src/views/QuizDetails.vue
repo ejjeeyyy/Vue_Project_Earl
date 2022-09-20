@@ -2,21 +2,30 @@
     <div v-if="user.loggedIn">
         <div v-if="currentHisto">
 
-
-            <v-form class="m-3">
+            <v-divider class="mx-4 mt-5"></v-divider>
+            <v-form class="m-3 mx-8 my-4 ">
+                
                 <div v-show="admin">
-                    <v-text-field label="Owner (User ID)" readonly v-model="currentHisto.userID"></v-text-field>
-                </div>
-
-                <v-text-field label="Average Score" :readonly="!admin" v-model="currentHisto.averageScore">
+                    <v-row class="mt-6">
+                    <v-text-field class="mx-4 my-2" variant="solo" label="Owner (User ID)" readonly v-model="currentHisto.userID"></v-text-field>
+           
+                    <v-text-field class="mx-4 my-2" variant="solo" label="Average Score" :readonly="!admin" v-model="currentHisto.averageScore">
                 </v-text-field>
-                <v-text-field label="Date & Time: Taken" readonly v-model="currentHisto.timeTaken">
+                    </v-row>
+                    <v-row>
+                <v-text-field class="mx-4 my-2" variant="solo" label="Date & Time: Taken" readonly v-model="currentHisto.timeTaken">
                 </v-text-field>
-                <v-text-field label="Date & Time: Finished" readonly v-model="currentHisto.timeFinished">
+                <v-text-field class="mx-4" variant="solo" label="Date & Time: Finished" readonly v-model="currentHisto.timeFinished">
                 </v-text-field>
+            </v-row>
+            </div>
+            
             </v-form>
+            
             <div v-show="admin">
-                <v-card-text class="d-flex justify-center w-100 mb-3" justify-center>{{ message }}</v-card-text>
+  
+                <v-card-text class="d-flex mt-n10 justify-center w-100 mb-3" justify-center>{{ message }}</v-card-text>
+                <v-divider class="mx-4 mb-6"></v-divider>
                 <div class="d-flex justify-space-around w-100 mb-3">
                     <v-btn type="submit" color="success" @click="updateHistory">Update</v-btn>
                     <v-btn type="submit" color="error" @click="deleteHistory">Delete</v-btn>
