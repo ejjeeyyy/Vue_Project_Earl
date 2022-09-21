@@ -10,7 +10,7 @@
 
     <v-layout class="mt-5" row>
         <v-card class="mx-auto w-25 rounded-xl" elevation="5">
-            <v-card-title class="font-weight-light mt-3 text-center">Quiz History</v-card-title>
+            <v-card-title class="font-weight-light mt-3 text-center">Quiz Log</v-card-title>
             <v-divider class="mx-2 my-5"></v-divider>
             <div class="text-center text-subtitle-2">
             <v-list :class="{ active: index == currentIndex }" v-for="(history, index) in List" :key="index">
